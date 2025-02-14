@@ -1,15 +1,24 @@
-#main {
-  background-color: blue;
-  color: white;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-#main h6 {
-  color: black;
-  font-size: 80px;
-  background-color: whitesmoke;
+
+li {
+  list-style: none;
+  display: inline-block;
 }
 
 #body {
-  background-color: greenyellow;
+  background-color: black;
+  min-height: 100vh;
+}
+
+/*Header*/
+.navbar {
+  background-color: #004B91 !important;
+  display: flex;
+  color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */
