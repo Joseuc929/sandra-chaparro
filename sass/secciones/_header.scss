@@ -1,11 +1,21 @@
-/*Header*/
+/*---------------HEADER----------------HEADER-----------------------HEADER------------------*/
 .navbar {
     background-color: #004B91 !important;
-    display:flex;
-    color: aliceblue;
-
     
+    ul  {
+        display: flex;
+        justify-content: space-around;
+        column-gap: 200px;
 
-    
+        a {
+            color: white;
+        }
+
+    }
+
 
 }
+
+
+
+
